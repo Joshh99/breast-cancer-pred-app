@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+*.pkl
+*.pth
+*.pyc
+*.pyo
+
+# Ignore log files
+*.log
+
+# Ignore compiled code
+*.o
+*.so
+*.out
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.history/
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data and model files
+*.pkl
+*.h5
+*.pth
+*.pt
+*.bin
+*.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
